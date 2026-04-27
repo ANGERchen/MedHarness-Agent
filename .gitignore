@@ -1,0 +1,23 @@
+# Python 运行缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 数据库与 RAG 向量存储
+*.db
+medical_knowledge_db/
+*.jsonl
+
+# 大模型权重与微调 Checkpoints
+checkpoints/
+models/
+*.safetensors
+*.bin
+*.pt
+
+# 多模态临时图片与系统隐藏文件
+temp_*.jpg
+temp_*.png
+.DS_Store
