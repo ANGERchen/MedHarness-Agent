@@ -1,0 +1,16 @@
+# 核心大模型与多模态接口
+openai>=1.12.0
+requests>=2.31.0
+
+# 界面与交互
+streamlit>=1.32.0
+
+# RAG 向量检索与重排
+chromadb>=0.4.24
+sentence-transformers>=2.5.1
+# duckduckgo-search 用于全网实时动态 RAG
+duckduckgo-search>=5.0.0
+
+# 可选：如果你后续用到了 bge-reranker，可能还需要 transformers 和 torch
+# torch>=2.1.0
+# transformers>=4.38.0
